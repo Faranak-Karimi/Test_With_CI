@@ -20,5 +20,5 @@ class Calculator:
     def power(self, op1, op2):
         return op1 ** op2
 
-    def max(self, op1, op2):
+    def maximum(self, op1, op2):
         return max(op1,op2)

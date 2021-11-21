@@ -43,3 +43,8 @@ class CalculatorTest(unittest.TestCase):
         calculator = self.calculator
         res = calculator.power(3, 4)
         self.assertEqual(81, res)
+
+    def test_maximum_operator(self):
+        calculator = self.calculator
+        res = calculator.maximum(3, 5)
+        self.assertEqual(5, res)
